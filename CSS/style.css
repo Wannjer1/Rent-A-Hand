@@ -3,7 +3,26 @@
 }
 
 body{
-    background-image: url("images/rend.jpeg");
+    background-image: url("images/rend.png");
     margin: 0;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    width: 70%;
+    margin: 15vh auto 0 auto;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+
+}
+
+.leftbar{
+    max-width: 500px;
+    width: 70%;
+    overflow-wrap:break-word;
+    background: #F6F8F1;
+    margin: 15vh auto 0 auto;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    box-sizing: border-box;
+    /* border-radius: 0.2rem; */
+}
