@@ -1,0 +1,42 @@
+.bg-color {
+    background-image: linear-gradient(#52AB98, #fff);
+    height: 100%;
+    background-attachment: fixed;
+}
+img {
+    width: 648px;
+    height: auto;
+}
+.container h2 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 48px;
+}
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-description {
+    padding: 10px;
+}
+.text-description h3 {
+    font-family: pacifico;
+}
+.rent-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #002B2E;
+    padding: 1em;
+    border-radius: 5px;
+}
+.rent-btn:hover {
+    background-color: #52AB98;
+    color: #f2f2f2;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
