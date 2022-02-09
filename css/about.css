@@ -90,7 +90,7 @@ header p{
       justify-content: space-between;
      
     }
-    .left > div > button{
+    .left > div > input{
       color: black;
       background-color: #52ab98;
       padding: 5px 20px 5px 20px;
