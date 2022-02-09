@@ -94,7 +94,7 @@
         height: 30vh;
     }
     .block4{
-        height: 60vh;
+        height: 80vh;
         position: relative;
     }
    .block4_images{
@@ -113,4 +113,19 @@
        font-weight: bolder;
        font-style: italic;
        color: blue;
+   }
+   #sign-up{
+       display: flex;
+       text-align: center;
+   }
+   #sign-up button{
+       background-color: #52AB98;
+       height: 30px;
+       width: 80px;
+       margin-top: 8px;
+   }
+   #sign-up p{
+       margin-top: 5%;
+       font-weight: lighter;
+       color: black;
    }
