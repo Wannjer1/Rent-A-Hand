@@ -60,6 +60,7 @@ header p{
   }
   h1{
     text-decoration: underline;
+    font-size: 60px;
   }
   .right{
     flex-direction: right;
@@ -69,8 +70,25 @@ header p{
     width: 30%;
     height: 100%;
   }
+  .cleaning{
+    height: 35%;
+    width: 39%;
+    background-image: url(../images/clean.jpg);
+    background-repeat: no-repeat; 
+    background-size: contain;    
+    position: absolute;
+    right: 20%;
+    top: 40%;}
+
+    .cleaning > img {
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+    }
+  
  /* icon div styling */
  .icons{
+   padding-top: 3%;
     width: 95%; 
     margin: auto;
     display: flex;
@@ -86,14 +104,16 @@ header p{
   text-decoration: underline;
  }
 
- /* top team */
+ /* team info */
  .top{
+  padding-top: 2%;
   width: 95%; 
   margin: auto;
   display: flex;
   justify-content: space-around;
  }
  .bottom{
+  padding-top: 2%;
   width: 95%; 
   margin: auto;
   display: flex;
@@ -102,3 +122,16 @@ header p{
  .team{
    border-radius: 50%;
  }
+ .top > div > p{
+  text-align: center; 
+ }
+ .bottom > div > p{
+  text-align: center;  
+ }
+
+ /* footer */
+footer{
+  border: 1px solid black;
+  width: 95%; 
+  margin: auto;
+}
