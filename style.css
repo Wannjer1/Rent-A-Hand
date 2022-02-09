@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto'");
 .bg-color {
     background-image: linear-gradient(#52AB98, #fff);
     height: 100%;
     /* background-attachment: fixed; */
 }
-
+/* body {
+    font-family: open-sans;
+} */
 /* HEADER STYLING */
 
 .bg-img {
@@ -13,6 +16,7 @@
     background-size: cover;
     opacity: 0.9;
     background-position: center;
+    background-attachment: fixed;
 }
 .navbar {
     display: flex;
@@ -92,6 +96,7 @@
     background-color: #002B2E;
     padding: 1em;
     border-radius: 5px;
+    font-family: pacifico;
 }
 .rent-btn:hover {
     background-color: rgb(19, 141, 114);
