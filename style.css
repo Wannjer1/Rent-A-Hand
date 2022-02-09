@@ -3,7 +3,70 @@
     height: 100%;
     /* background-attachment: fixed; */
 }
-img {
+
+/* HEADER STYLING */
+
+.bg-img {
+    height: 40vh;
+    width: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-position: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h2 {
+    font-family: pacifico;
+    font-weight: 700;
+    font-size: 3em;
+    color: #AEEDF5;
+    margin: 5px 40px;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 500;
+}
+.navbar .hw li a {
+    color: #fff;
+}
+.navbar .rf li a {
+    color: #002B2E;
+}
+.navbar .rf li a:hover {
+    color: #246859;
+}
+.btn-login {
+    background-color: #002B2E;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    margin-right: 40px;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.navbar ul li a:hover {
+    color: #AEEDF5;
+}
+.btn-login:hover {
+    background-color: #AEEDF5;
+    color: #002B2E;
+}
+/* BODY STYLING */
+.img {
     width: 648px;
     height: auto;
 }
@@ -31,7 +94,7 @@ img {
     border-radius: 5px;
 }
 .rent-btn:hover {
-    background-color: #52AB98;
+    background-color: rgb(19, 141, 114);
     color: #f2f2f2;
 }
 .right {
