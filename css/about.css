@@ -87,3 +87,18 @@ header p{
  }
 
  /* top team */
+ .top{
+  width: 95%; 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+ }
+ .bottom{
+  width: 95%; 
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .team{
+   border-radius: 50%;
+ }
