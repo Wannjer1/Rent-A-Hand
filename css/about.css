@@ -1,10 +1,6 @@
 body{
-  border: 1px solid rgb(243, 59, 13);
-  /* background-color:#52ab98; */
-}
-
-.aboutus, .icons, .icons, .top, .bottom{
-  border: 1px solid black;
+  background-color:#52ab98;
+  background-image: linear-gradient(#52ab98 ,#ffffff);
 }
 
 /* header styling - austin */
@@ -39,21 +35,21 @@ header ul,p{
 }
 header p{
   font-weight: 100;
-  font-family: pacifico;} 
+  font-family: "pacifico";} 
 
   /* about us */
   .aboutus{
+    
     margin-top: 3%;
     display: flex; 
     width: 95%; 
     margin-left: auto;
     margin-right: auto;
-    height: 80vh; 
+    height: 60vh; 
     background-color: white;
   }
   .left{
     flex-direction: left;
-    border: 1px solid black;
     width: 70%;
     height: 100%;
     padding-left: 5%;
@@ -66,7 +62,6 @@ header p{
     flex-direction: right;
     background-image: url(../images/hands.jpeg);
     background-repeat: no-repeat;
-    border: 1px solid black;
     width: 30%;
     height: 100%;
   }
@@ -78,7 +73,7 @@ header p{
     background-size: contain;    
     position: absolute;
     right: 20%;
-    top: 40%;}
+    top: 30%;}
 
     .cleaning > img {
       position: absolute;
@@ -89,16 +84,21 @@ header p{
  /* icon div styling */
  .icons{
    padding-top: 3%;
-    width: 95%; 
+    width: 95%;     
     margin: auto;
     display: flex;
     justify-content: space-around;
+    text-align: center;
  }
+ .icons > div > img {
+   border-radius: 50%;
+ }
+
+ /* meey the teams */
  .h2{
    width: 95%;
    margin: auto;
-   text-align: center;
-   border: 1px solid black;
+   text-align: center;  
  }
  h2{
   text-decoration: underline;
@@ -107,7 +107,8 @@ header p{
  /* team info */
  .top{
   padding-top: 2%;
-  width: 95%; 
+  width: 95%;
+  height:50vh; 
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -115,6 +116,7 @@ header p{
  .bottom{
   padding-top: 2%;
   width: 95%; 
+  height:50vh; 
   margin: auto;
   display: flex;
   justify-content: space-evenly;
