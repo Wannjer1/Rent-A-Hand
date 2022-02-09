@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 *{
     padding: 0;
     margin: 0;
@@ -30,6 +32,8 @@
    header button{
        background-color: #52AB98;
        width: 70px;
+       height: 30px;
+       font-weight: bolder;
    }
 
    header ul,p{
@@ -37,13 +41,12 @@
        font-size: bold;
    }
    header p{
-       font-style: oblique;
-       font-weight: 1000;
-       font: xx-large;
+       font-weight: 100;
+       font-family: pacifico;
    }
    
     .block1{
-        background-image: url("./Rent_Images/4500625.jpg");
+        background-image: url("./4500625.jpg");
         height: 60vh;
         background-size: 100% 100%;
         color: white;
@@ -98,9 +101,16 @@
        position: absolute;
        top: 30%;
        width: 100%;
-       justify-content: space-evenly;
-       
+       justify-content: space-between;
    }
    .block4_images img{
-       margin-left: 1em;
+       margin-left: 3em;
+   }
+   .block4a{
+       position: absolute;
+       top: 75%;
+       left: 45%;
+       font-weight: bolder;
+       font-style: italic;
+       color: blue;
    }
