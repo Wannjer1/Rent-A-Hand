@@ -3,6 +3,10 @@
     background-image: linear-gradient(#52AB98, #fff);
     height: 100%;
     /* background-attachment: fixed; */
+    animation: movedown 1s linear 1;
+    animation-delay: 0.6s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 /* body {
     font-family: open-sans;
@@ -17,17 +21,29 @@
     opacity: 0.9;
     background-position: center;
     /* background-attachment: fixed; */
+    animation: zoomin 1s linear 1;
+    animation-delay: 0.7s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
+    animation: movedown 1s linear 1;
+    animation-delay: 1.2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
-.navbar h2 {
+.logo {
+    visibility: hidden;
     font-family: pacifico;
     font-weight: 700;
     font-size: 3em;
     color: #AEEDF5;
     margin: 5px 40px;
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 .navbar ul li {
     list-style-type: none;
@@ -61,6 +77,10 @@
     color: #fff;
     font-style: italic;
     text-transform: capitalize;
+    animation: movedown 1s linear 1;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 .navbar ul li a:hover {
     color: #AEEDF5;
@@ -73,19 +93,32 @@
 .img {
     width: 648px;
     height: auto;
+    animation: zoomin 1s linear 1;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
-.container h2 {
+.title {
     color: #fff;
     text-align: center;
     padding: 10px;
     font-size: 48px;
+    animation: movedown 1s linear 1;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 .content {
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 .text-description {
     padding: 10px;
+    animation: moveright 1s linear 1;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 .text-description h3 {
     font-family: pacifico;
@@ -173,5 +206,38 @@ input[type=text] {
     }
     .form-container {
         width: 100%;
+    }
+}
+
+
+/* KEYFRAMES ANIMATION */
+@keyframes movedown {
+    0% {
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+@keyframes moveright{
+    0% {
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100% {
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+@keyframes zoomin {
+    0% {
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100% {
+        transform: scale(1);
+        visibility: visible;
     }
 }
