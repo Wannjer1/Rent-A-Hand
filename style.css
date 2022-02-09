@@ -58,6 +58,8 @@ form {
     color: #fff;
     width: 90%;
     margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .btn-rent:hover {
     background-color: #002B2E;
