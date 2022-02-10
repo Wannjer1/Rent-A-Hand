@@ -4,7 +4,22 @@
     box-sizing: border-box;
 }
 
+:root{
+    background-color: linear;
+}
+
+/* header section */
+
 header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/images/first.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
     background-color: #0F1010;
     height: 10vh;
     display: flex;
@@ -12,31 +27,33 @@ header{
     justify-content: space-around;
     width: 100%;
 }
-header ul{
+nav ul{
  text-decoration: none;
  list-style: none;
  display: flex;
  justify-content: space-around;
 }
-header ul li a ,button{
+nav ul li a ,button{
     text-decoration: none;
     color: white;
     margin-left: 2em;
 }
-header button{
+nav button{
     background-color: #52AB98;
     width: 70px;
     height: 30px;
     font-weight: bolder;
 }
-header ul,p{
+nav ul,p{
     margin-top: 2em;
     font-size: bold;
 }
-header p{
+nav p{
     font-weight: 100;
     font-family: pacifico;
 }
+
+
 
 /* section 1 start */
 
@@ -111,7 +128,7 @@ header p{
     width:20em;
     height:20em;
     margin: 0;
-    background-image: url("/images/garden.jpg");
+    background-image: url("/images/laundry.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -122,7 +139,7 @@ header p{
     width:20em;
     height:20em;
     margin: 0;
-    background-image: url("/images/garden.jpg");
+    background-image: url("/images/plumbing.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
