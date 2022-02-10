@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+  <link rel="stylesheet" href="css/about.css">
+  <title>About-us</title>
+</head>
+
+<body>  
+    <!-- <header>
+      <p>Rent a hand</p>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Rent a Hand</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><button>log in</button></li>
+      </ul>
+  </header>   -->
+
+  <header>
+    <div class="bg-img" style="background-image: url(./assets/background-img.jpg);">
+        <div class="navbar">
+            <h2 class="logo">Rent a hand</h2>
+            <ul class="hw" id="myNavBar">
+                <li class="subitem"><a href="index.html">Home</a></li>
+                <li class="subitem"><a href="about.html">About Us</a></li>
+                <li class="subitem"><a href="services.html">Services</a></li>
+                <li class="subitem"><a href="rent-a-hand.html">Rent a Hand</a></li>
+                <li class="subitem"><a href="contact.html">Contact</a></li>
+                <li><button class="btn-login"><a href="login.html">log in</a></button></li>
+            </ul>
+        </div>
+    </div>
+</header>
+  <!-- About us section -->
+  <div class="aboutus">
+    <div class="left">
+      <h1>Who<br> are<br> we?</h1>
+      <p>Lorem ipsum dolor sit amet.<br>
+        Lorem ipsum dolor sit amet consectetur<br>
+        adipisicing lorem, ipsum dolor.</p>
+      <div class="button">
+        <input class="mission" type="submit" value="mission" onclick="changePage('vision')">
+        <input class="vision" type="submit" value="vision" onclick="changePage('vision')">        
+      </div>
+    </div>
+    <div class="right">
+      <!-- helping hand image background goes here -->
+    </div>
+    <div class="cleaning">      
+      <img src="images/clean.jpg" alt="cleaninglady" width="75%" >
+    </div>
+  </div>
+
+  <!-- icon divs -->
+  <div class="icons">
+    <div>
+      <img src="images/clock.jpeg" alt="clock" width="80" height="80" >
+      <p>Timely<br> service</p>
+    </div>
+    <div>
+      <img src="images/thumpsup.png" alt="thumpsup" width="85" height="85">
+      <p>Reliable</p>
+    </div>
+    <div>
+      <img src="images/smiley.png" alt="smiley" width="85" height="85">
+      <p>Happy <br>customers</p>
+    </div>   
+  </div>
+
+   <!-- Meet the team heading -->
+    <div class="h2">
+      <h2>Meet The Team</h2>
+    </div>    
+   
+    <!-- team div -->
+    <div class="top">
+      <div>
+        <img class="team" src="images/founder.jpeg" alt="founder" width="200" height="200">
+        <p>
+          Mary Masumbuka<br>
+          Founder/managing<br>
+          director
+        </p>
+      </div>
+      <div>
+        <img class="team" src="images/ITmanager.jpeg" alt="IT manager"width="200" height="200" >
+        <p>
+          Saba Kireti<br>
+          IT/Social<br>
+          media manager
+        </p>
+      </div>
+      <div>
+        <img class="team" src="images/custrelations.jpeg" alt="C.Relations" width="200" height="200">
+        <p>
+          Akina Mafuma<br>
+          Customer<br>
+          Relations
+        </p>
+      </div>      
+    </div>
+
+    <div class="bottom">
+      <div>
+        <img class="team" src="images/blackman.jpeg" alt="talents" width="200" height="200">
+        <p>Kwame Juma<br>Talents Search</p>
+      </div>
+      <div>
+        <img class="team" src="images/hr.jpeg" alt="HR" width="200" height="200">
+        <p>
+          Mishi Tande<br>
+          Human<br>
+          Resources
+        </p>
+      </div>    
+    </div>
+
+    <!-- footer code -->
+    <footer>
+        <hr>
+        <div class="footer">
+            <div class="f1">
+                <h3>Rent A Hand</h3>
+            </div>
+            <div class="f2">
+                <ul>
+                    <li class="first">Site Map</li>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Our Services</li>
+                    <li>Rent A Hand</li>
+                    <li>Contact Us</li>
+                    <li>Rates</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+            <div class="f3">
+                <ul>
+                    <li class="first" >Get In Touch</li>
+                    <li><i class="fa-solid fa-phone"></i>(+254)736-452-536</li>
+                    <li><i class="fa-solid fa-location-dot"></i>Hospital Rd,UpperHill</li>
+                    <li><i class="fa-solid fa-envelope"></i>email@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <form >
+                    <input type="text" id="email" placeholder="email@gmail.com" required>
+                    <input type="submit" id="email2" value="Subscribe to our Newsletter" >
+                </form>
+            </div>
+        </div>
+        <div class="rights">
+                <p>All Rights Reserved 2022</p>
+            <div id="rights">
+                <i class="fa-brands fa-whatsapp-square"></i>
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="./js/about.js"></script>
+ 
+</body>
+</html>
