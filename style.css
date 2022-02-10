@@ -9,7 +9,7 @@ body{
     height: 100vh;
 }
 .container{
-    width: 80%;
+    width: 60%;
     margin-left: 10%;
     margin-right: auto;
 }
@@ -92,7 +92,12 @@ body{
     align-items: center;
     border-radius: 3px 3px 3px 3px;
     padding-top: auto;
-    color: #002b2e ;
+    color: orangered;
+    text-align: center;
+    font-size: 25px;
+    background-color: #52ab98;
+    padding: opx;
+
 }
 .password .email .btn:hover{
     border-radius: 19px;
@@ -129,4 +134,8 @@ h4{
 span{
     font-size: 25px;
     color: #002b2e;
+}
+.logo img{
+    height: 300px;
+    align-items: center;
 }
