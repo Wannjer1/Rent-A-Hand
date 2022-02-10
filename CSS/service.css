@@ -256,7 +256,18 @@ body{
 
 }
 
+/* how we work section */
 
+.sect-2{
+    display: flex;
+    padding: 50px;
+    line-height: 1.1;
+}
+
+.cont-sect2{
+    width: 50%;
+    height: 100%;
+}
 
 /* footer section */
 
