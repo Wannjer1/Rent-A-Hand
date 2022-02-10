@@ -150,54 +150,7 @@ header p{
   text-align: center;  
  }
 
- /* footer */
-footer{
-  border: 1px solid black;
-  width: 95%; 
-  margin: auto;
-}
-
-/* mission/vision styling */
-.changePage{
-  background-image: url(../images/hands.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);  
-  width: 100%;
-  height: 50vh;
-  color: white;
- 
-}
-
-.changePage > h2{
-  color:white ;
-  font-weight: bolder;
-  text-decoration: underline;
-  text-align: center; 
-  font-size: xx-large;  
-}
- 
-.info{
-  display: flex;
-  color:#52ab98;  
-  height: 100%;
-  width: 100%;
-  margin: auto; 
-  text-align: center;
-  font-size: x-large;
-  }
-
-.info1{
-  flex-direction: left;
-  width: 50%;
-  height: 100%; 
-}
-.info2{
-  flex-direction: right;
-  width: 50%;
-  height: 100%; 
-} 
-footer section */
+/* footer section */
 .footer{
     width: 100%;
     height: 40vh;
@@ -265,10 +218,54 @@ footer hr{
     color: #52AB98;
 }
 
+/* mission/vision styling */
+.changePage{
+  background-image: url(../images/hands.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);  
+  width: 100%;
+  height: 50vh;
+  color: white;
+ 
+}
+
+.changePage > h2{
+  color:white ;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center; 
+  font-size: xx-large;  
+}
+ 
+.info{
+  display: flex;
+  color:#52ab98;  
+  height: 100%;
+  width: 100%;
+  margin: auto; 
+  text-align: center;
+  font-size: x-large;
+  }
+
+.info1{
+  flex-direction: left;
+  width: 50%;
+  height: 100%; 
+}
+.info2{
+  flex-direction: right;
+  width: 50%;
+  height: 100%; 
+} 
+
 
 /* RESPONSIVE DESIGN */
 @media only screen  and (max-width:1000px){
 
+
+
+  
   .aboutus{    
     margin-top: 3%;
     display: flex; 
@@ -405,6 +402,5 @@ footer hr{
   height: 100%; 
   margin-bottom: 5%;
 } 
-
   
 }
