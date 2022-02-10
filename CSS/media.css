@@ -1,0 +1,124 @@
+@media only screen and (max-width: 480px) {
+   
+    .navbar {
+        display: flex;
+    }
+    .navbar .icon {
+        display: none;
+    }
+    .logo {
+        font-weight: 600;
+        font-size: 2em;
+        margin-right: 30px;
+        padding: 2px;
+    }
+    .hw {
+        overflow: hidden;
+    }
+    .navbar ul li {
+        display: flex;
+        padding: 0.5em;
+    }
+    .navbar ul li a{
+        font-weight: 400;
+    }
+    .btn-login {
+        float: right;
+    }
+    .bg-img {
+        height: 50vh;
+    }
+
+    header{
+        background-image: none;
+    }
+    .block1{
+        height: 70vh;
+    }
+    #block1a{
+        top: 65%;
+        font-size: large;
+        left: 20%;
+    }
+    #block1b{
+        top: 80%;
+        left: 15%;
+        font-size: small;
+    }
+    .block2{
+        height: 0;
+    }
+    .block3{
+        height: 40vh;
+    }
+    .block3a{
+        padding-top: 20px;
+    }
+    #block3a1{
+        font-size: medium;
+    }
+    #block3a2{
+        font-size: 8px;
+    }
+    .block3b{
+        width: 70%;
+        left: 20%;
+    }
+    .block3b p{
+        font-size: x-small;
+    }
+    .block3b ul li{
+        display: flex;
+        font-size: x-small;
+    }
+    .block4{
+        height: 120vh;
+        justify-content: center;
+    }
+    .block4_images{
+        display: flex;
+        flex-direction: column;
+        top: 10%;
+        left: 25%;
+    }
+    .block4 img{
+        height: 90px;
+        width: 125px;
+        margin-top: 2em;
+    }
+    .block4a{
+        top: 83%;
+    }
+
+    .block5{
+        height: 30vh;
+    }
+    .block5 p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    /* footer media query */
+    .footer{
+        height: 90vh;
+        flex-direction: column;
+    }
+    .f1{
+        font-size: medium;
+    }
+    .f2 , .f3{
+        font-size: small;
+    }
+    footer form{
+        display: flex;
+
+    }
+    #email{
+        padding: 0%;
+        height: 20px;
+    }
+    #email2{
+        padding: 0%;
+        height: 20px;
+        margin-top: 3.8em;
+    }
+}
