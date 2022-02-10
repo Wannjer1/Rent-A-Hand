@@ -61,6 +61,8 @@ header p{
     height: 200px;
     text-align: center;
     padding-top: 50px;
+    border-radius: 20px;
+    box-shadow: 30px;
 
 }
 
