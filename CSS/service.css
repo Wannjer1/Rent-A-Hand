@@ -106,8 +106,10 @@ nav p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     
 }
+
 .card-1{
     width:20em;
     height:20em;
@@ -116,7 +118,36 @@ nav p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(56, 52, 52, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition:  .5s ease;
+  
+}
+
+.card-0:hover .overlay{
+    height: 100%;
+}
+
+.card-1:hover .overlay{
+    height: 100%;
+}
+
+.text{
+    color: #52AB98;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
 }
 
 .card-2{
@@ -127,7 +158,13 @@ nav p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     
+}
+
+
+.card-2:hover .overlay{
+    height: 100%;
 }
 
 .card-3{
@@ -138,7 +175,13 @@ nav p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     
+}
+
+
+.card-3:hover .overlay{
+    height: 100%;
 }
 
 .card-4{
@@ -149,7 +192,24 @@ nav p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     
+}
+
+
+.card-4:hover .overlay{
+    height: 100%;
+}
+
+.rent{
+    background-color: aliceblue;
+    color: red;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px;
+
 }
 
 /* end of cards section */
