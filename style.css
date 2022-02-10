@@ -15,12 +15,21 @@ body{
 }
 .cont-login{
     display: flex;
-  
+    margin-left: 195px auto;
     color: white;
     justify-content: space-around;
     margin-top: 400px;
+    width:125%;
     
    
+}
+.cont-logi{
+    display: flex;
+    margin-left: 195px;
+    color: white;
+    justify-content: space-around;
+    margin-top: 400px;
+    width:85%;
 }
 .number{
     background-color: transparent;
@@ -81,7 +90,7 @@ body{
     width: 95%;
     border: lightgreen;
     background-color: lightgreen;
-    border-radius: 5px;
+    border-radius: 10px;
     color: black;
     font-size: 20px;
 }
@@ -138,4 +147,9 @@ span{
 .logo img{
     height: 300px;
     align-items: center;
+}
+@media screen and (max-width: 800px){
+    .cont-logi{
+        display: flex;
+    }
 }

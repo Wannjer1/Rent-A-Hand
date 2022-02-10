@@ -14,3 +14,10 @@ function getinfo(){
         console.log(username + "is logged in")
     }}
 }
+function validateForm() {
+    let x = document.forms["myForm"]["email"].value;
+    if (x == "") {
+      alert("email must be filled out");
+      return false;
+    }
+  }
