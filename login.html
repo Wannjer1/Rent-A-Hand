@@ -5,28 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <source type="text/javascript" src="login.js">
     <title>Login</title>
 </head>
 <body>
+    <div class="container">
+        <div class="cont-login">
+            <div class="cont-log">
+            <div class="logo">
+                <h2>Rent A Hand</h2>
+            </div>
+            <div class="login">
+                <form>
+                <input type="email" class="email" name="email" placeholder="email@example.com"> <br>
+                <br>
+                <input type="text" class="password" name="password" placeholder="********.."> <br>
+                <br>
+                <input type="submit" class="btn btn-primary w-100" onclick="getinfo()" name="" value="Login"> <br>
+                <br>
+                <br>
+                <li><a href="signup.html">SignUp</a> </li>
+                <h4>Forgot your password  -  Question</h4>
+            </form>
+            </div>
+           </div>
     
-    <div class="cont-log">
-        <div class="logo">
-            <h2>Rent A Hand</h2>
         </div>
-        <div class="login">
-            <form action="login.php" method="post" class="login">
-            <input type="email" class="email" name="email" placeholder="email@example.com"> <br>
-            <br>
-            <input type="text" class="password" name="password" placeholder="password.."> <br>
-            <br>
-            <input type="submit" class="btn btn-primary w-100" name="" value="Login"> <br>
-            <br>
-            <br>
-            <li><a href="signup.html">SignUp</a> </li>
-            <h4>Forgot your password  -  Question</h4>
-        </form>
-    </div>
-
     </div>
 
 </body>
