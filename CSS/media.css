@@ -1,0 +1,24 @@
+@media only screen and (max-width: 480px) {
+   
+    header{
+        background-image: none;
+    }
+    .block1{
+        height: 100vh;
+    }
+    .block2{
+        height: 0;
+    }
+    .block3{
+        height: 40vh;
+    }
+    .block3a{
+        padding-top: 20px;
+    }
+    #block3a1{
+        font-size: medium;
+    }
+    #block3a2{
+        font-size: 8px;
+    }
+}
