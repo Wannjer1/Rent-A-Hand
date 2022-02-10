@@ -1,6 +1,126 @@
 * {
     font-family: "Open Sans", sans-serif;
 }
+/* Header section */
+
+.bg-img {
+    height: 30vh;
+    width: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-position: center;
+    /* background-attachment: fixed; */
+    animation: zoomin 1s linear 1;
+    animation-delay: 0.7s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    animation: movedown 1s linear 1;
+    animation-delay: 1.2;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+.navbar .icon {
+    display: none;
+}
+.logo {
+    visibility: hidden;
+    font-family: pacifico;
+    font-weight: 700;
+    font-size: 3em;
+    color: #AEEDF5;
+    margin: 5px 40px;
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.hw {
+    overflow: hidden;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 500;
+}
+.navbar .hw li a {
+    color: #fff;
+}
+.navbar .rf li a {
+    color: #002B2E;
+}
+.navbar .rf li a:hover {
+    color: #246859;
+}
+.btn-login {
+    background-color: #002B2E;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    margin-right: 40px;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-style: italic;
+    text-transform: capitalize;
+    animation: movedown 1s linear 1;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+.navbar ul li a:hover {
+    color: #AEEDF5;
+    overflow: hidden;
+}
+.btn-login:hover {
+    background-color: #AEEDF5;
+    color: #002B2E;
+}
+        /* Nav-bar madia Query */
+
+/* NAVBAR RESPONSIVE */
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: flex;
+    }
+    .navbar .icon {
+        display: none;
+    }
+    .logo {
+        font-weight: 600;
+        font-size: 2em;
+        margin-right: 30px;
+        padding: 2px;
+    }
+    .hw {
+        overflow: hidden;
+    }
+    .navbar ul li {
+        display: flex;
+        padding: 0.5em;
+    }
+    .navbar ul li a{
+        font-weight: 400;
+    }
+    .btn-login {
+        float: right;
+    }
+    .bg-img {
+        height: 50vh;
+    }
+}
+
+/* End of header */
 
 body {
     background-image: url("images/rend.png");
@@ -103,4 +223,73 @@ textarea::-webkit-scrollbar-thumb{
     background-color: turquoise;
 }
 
-/*  */
+/* Footer section */
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer hr{
+    border-bottom: #52AB98;
+}
+.f1{
+    font-size: larger;
+    font-weight: bolder;
+    width: 80px;
+}
+.f2 ul{
+    list-style: none;
+}
+.f2 li{
+    margin-top: 10px;
+}
+.first{
+    font-size: larger;
+    font-weight: bolder;
+}
+.f3 ul{
+    list-style: none;
+}
+.f3 li{
+    margin-bottom: 10px;
+}
+.f3 li i{
+    margin-right: 10px;
+    color: #52AB98;
+    font-size: 20px;
+}
+#email{
+    padding: 15px;
+    margin-top: 50px;
+    border:transparent;
+    border-radius: 10px 0 0 10px;
+}
+#email2{
+    padding: 15px;
+    border-radius: 0 10px 10px 0;
+    border: transparent;
+    background-color: #52AB98;
+}
+.rights{
+    width: 100%;
+    height: 50px;
+    background-color: #0F1010;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.rights p{
+    color: #52AB98;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#rights i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: #52AB98;
+}
+
+/* End of footer section */
