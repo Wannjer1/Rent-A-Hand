@@ -58,4 +58,27 @@
         font-size: 20px;
         padding-top: 10px;
     }
+    .footer{
+        height: 90vh;
+        flex-direction: column;
+    }
+    .f1{
+        font-size: medium;
+    }
+    .f2 , .f3{
+        font-size: small;
+    }
+    footer form{
+        display: flex;
+
+    }
+    #email{
+        padding: 0%;
+        height: 20px;
+    }
+    #email2{
+        padding: 0%;
+        height: 20px;
+        margin-top: 3.8em;
+    }
 }
