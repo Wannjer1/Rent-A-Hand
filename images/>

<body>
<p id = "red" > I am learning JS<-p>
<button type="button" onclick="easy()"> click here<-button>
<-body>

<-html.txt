@@ -1,8 +1,0 @@
->
-
-<body>
-<p id = "red" > I am learning JS</p>
-<button type="button" onclick="easy()"> click here</button>
-</body>
-
-</html> 
