@@ -154,3 +154,19 @@ footer{
   width: 95%; 
   margin: auto;
 }
+/* mission/vision styling */
+.changePage{
+  background-image: url(../images/hands.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  height: 100vh;
+  width: 100vh;
+}
+
+
+/* RESPONSIVE DESIGN */
+@media only screen  and (min-width:480px){
+  
+  
+}
