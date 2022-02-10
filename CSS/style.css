@@ -71,7 +71,9 @@
     background-color: #AEEDF5;
     color: #002B2E;
 }
-
+.btn-login a:hover {
+    background-color: darkblue;
+}
     .block1{
         background-image: url("./Hand4.jpg");
         height: 60vh;
@@ -180,6 +182,9 @@
        font-weight: bolder;
        border: solid 1px blueviolet;
         margin-top: 20px;
+   }
+   #btn.reg:hover{
+        background-color: blue;
    }
    #rent{
        text-shadow: 1px 2px blue;
