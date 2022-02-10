@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
     <title>Contact</title>
 </head>
 
@@ -16,18 +19,22 @@
         <div class="leftbar">
             <h1>Reach Out To Us</h1>
             <p>We Are Here to Lend You <br> a Hand In The City</p>
-            <p><i></i>Ngong Rd Plaza 3rd Fl</p>
-            <p><i></i>rentahand@gmail.com</p>
-            <p><i></i>+2540201647522</p>
+            <p><i class="material-icons">location_on</i>Ngong Rd Plaza 3rd Fl</p>
+            <p><i class="material-icons">mail</i>rentahand@gmail.com</p>
+            <p><i class="material-icons">call</i>+2540201647522</p>
 
-            <i>Twitter</i>
-            <i>fb</i>
-            <i>linkeIn</i>
+            <div class="social">
+                <a href="#"><ion-icon name="logo-facebook" class="connect"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram" class="connect"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="connect"></ion-icon></a>
+    
+            </div>
         </div>
 
-        <div class="form">
-            <form action="">
+        <div class="fill">
+            <form id="form">
                 <h1>Contact Us</h1>
+                <P class="submitted"></P>
                 
                 <label for="name">Name</label>
                 <input type="text" id="name" placeholder="First Name, Last Name">
@@ -46,7 +53,7 @@
                 <small class="error"></small>
 
                 <div class="send">
-                    <input type="submit" value="Send Request">
+                    <button type="submit" value="Submit" onClick="submission">Submit request</button>
                     <p class="sent"></p>
                 </div>
 
@@ -56,10 +63,12 @@
 
     </div>
     
-
+<!--  -->
 
 
     <!-- Footer Will be added Later On -->
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
