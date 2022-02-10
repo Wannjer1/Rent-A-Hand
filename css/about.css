@@ -6,7 +6,7 @@ body{
   font-family: "Open Sans", sans-serif;
 }
 
-/* header styling - austin */
+/* header styling - austin 
 
 header{
   background-color: #0F1010;
@@ -39,7 +39,77 @@ header ul,p{
 }
 header p{
   font-weight: 100;
-  font-family: "pacifico";} 
+  font-family: "pacifico";}  */
+
+
+  /* HEADER STYLING */
+.bg-img {
+  height: 8vh;
+  width: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  background-position: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .icon {
+  display: none;
+}
+.logo {
+  font-family: pacifico;
+  font-weight: 700;
+  font-size: 3em;
+  color: #AEEDF5;
+  margin: 5px 40px;
+}
+.hw {
+  overflow: hidden;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1em;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 500;
+}
+.navbar .hw li a {
+  color: #fff;
+}
+.navbar .rf li a {
+  color: #002B2E;
+}
+.navbar .rf li a:hover {
+  color: #246859;
+}
+.btn-login {
+  background-color: #002B2E;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  margin-right: 40px;
+  border: none;
+  height: 40px;
+  color: #fff;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.navbar ul li a:hover {
+  color: #AEEDF5;
+  overflow: hidden;
+}
+.btn-login:hover {
+  background-color: #AEEDF5;
+  color: #002B2E;
+}
+
 
   /* about us */
   .aboutus{    
@@ -260,12 +330,42 @@ footer hr{
 } 
 
 
+
+
+
 /* RESPONSIVE DESIGN */
 @media only screen  and (max-width:1000px){
+  /* NAVBAR RESPONSIVE */
+@media screen and (max-width: 1000px) {
+  .navbar {
+      display: flex;
+  }
+  .navbar .icon {
+      display: none;
+  }
+  .logo {
+      font-weight: 600;
+      font-size: 2em;
+      margin-right: 30px;
+      padding: 2px;
+  }
+  .hw {
+      overflow: hidden;
+  }
+  .navbar ul li {
+      display: flex;
+      padding: 0.5em;
+  }
+  .navbar ul li a{
+      font-weight: 400;
+  }
+  .btn-login {
+      float: right;
+  }
+  .bg-img {
+      height: 50vh;
+  }
 
-
-
-  
   .aboutus{    
     margin-top: 3%;
     display: flex; 
@@ -403,4 +503,27 @@ footer hr{
   margin-bottom: 5%;
 } 
   
+/* footer styling */
+.footer{
+  height: 90vh;
+  flex-direction: column;
+}
+.f1{
+  font-size: medium;
+}
+.f2 , .f3{
+  font-size: small;
+}
+footer form{
+  display: flex;
+}
+#email{
+  padding: 0%;
+  height: 20px;
+}
+#email2{
+  padding: 0%;
+  height: 20px;
+  margin-top: 3.8em;
+}
 }
