@@ -37,3 +37,95 @@ header p{
     font-weight: 100;
     font-family: pacifico;
 }
+
+/* section 1 start */
+
+.sec-1{
+    width: 100%;
+    max-width: 100%;
+    height: 200vh;
+    padding: 80px;
+    background-color: blue;
+}
+
+.services{
+    background-color: pink;
+    width: 180vh;
+    height: 150vh;
+    overflow: hidden;
+
+}
+
+.services2{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.cards1{
+    width: 100% ;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.card-0{
+    width:20em;
+    height:20em;
+    margin: 0;
+    background-image: url("/images/garden.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.card-1{
+    width:20em;
+    height:20em;
+    margin: 0;
+    background-image: url("/images/rafiki.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card-2{
+    width:20em;
+    height:20em;
+    margin: 0;
+    background-image: url("/images/dogs.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card-3{
+    width:20em;
+    height:20em;
+    margin: 0;
+    background-image: url("/images/garden.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card-4{
+    width:20em;
+    height:20em;
+    margin: 0;
+    background-image: url("/images/garden.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* end of cards section */
+
