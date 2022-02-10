@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+}
+.cont-log{
+    display: flex;
+    background-color: rgb(3, 53, 53);
+    color: white;
+    justify-content: space-around;
+    border-radius: 2px 2px 2px 2px;
+    width: 35%;
+    height: 600px;
+    align-content: center;
+    margin-left: 550px;
+    margin-top: 350px;
+}
+.login{
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 70px;
+}
+.email{
+    height: 30px;
+    width: 75%;
+    border: lightgreen;
+    border-radius: 5px;
+    border-radius: 5px 5px 5px green;
+    font-size: 20px;
+
+}
+.password{
+    height: 30px;
+    width: 75%;
+    border-radius: 5px;
+    border-radius: 5px 5px 5px green;
+    font-size: 20px;
+
+}
+.number{
+    height: 30px;
+    width: 75%;
+    border: lightgreen;
+    border-radius: 5px;
+    font-size: 20px;
+    border-radius: 5px 5px 5px green;
+}
+.btn{
+    height: 30px;
+    width: 75%;
+    border: lightgreen;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border-radius: 5px 5px 5px green;
+    color: black;
+}
+.logo{
+    align-items: center;
+    border-radius: 3px 3px 3px 3px;
+    padding-top: 185px;
+}
+.password .email .btn:hover{
+    border-radius: 19px;
+}
+.login li a{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.login li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.radio{
+    color: white;
+    display: inline;
+    justify-content: space-around;
+    height: 10px;
+}
