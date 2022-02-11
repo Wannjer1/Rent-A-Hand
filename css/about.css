@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  background-color:#52ab98;
+  background-image: linear-gradient(#52ab98 ,#ffffff);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header styling - austin 
+
+header{
+  background-color: #0F1010;
+  height: 10vh;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  width: 100%;
+}
+header ul{
+text-decoration: none;
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+header ul li a ,button{
+  text-decoration: none;
+  color: white;
+  margin-left: 2em;
+}
+header button{
+  background-color: #52ab98;
+  width: 70px;
+  height: 30px;
+  font-weight: bolder;
+}
+header ul,p{
+  margin-top: 2em;
+  font-size: bold;
+}
+header p{
+  font-weight: 100;
+  font-family: "pacifico";}  */
+
+
+  /* HEADER STYLING */
+.bg-img {
+  height: 8vh;
+  width: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  background-position: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .icon {
+  display: none;
+}
+.logo {
+  font-family: pacifico;
+  font-weight: 700;
+  font-size: 3em;
+  color: #AEEDF5;
+  margin: 5px 40px;
+}
+.hw {
+  overflow: hidden;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1em;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 500;
+}
+.navbar .hw li a {
+  color: #fff;
+}
+.navbar .rf li a {
+  color: #002B2E;
+}
+.navbar .rf li a:hover {
+  color: #246859;
+}
+.btn-login {
+  background-color: #002B2E;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  margin-right: 40px;
+  border: none;
+  height: 40px;
+  color: #fff;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.navbar ul li a:hover {
+  color: #AEEDF5;
+  overflow: hidden;
+}
+.btn-login:hover {
+  background-color: #AEEDF5;
+  color: #002B2E;
+}
+
+
+  /* about us */
+  .aboutus{    
+    margin-top: 3%;
+    display: flex; 
+    width: 95%; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh; 
+    background-color: white;
+  }
+  .left{
+    flex-direction: left;
+    width: 70%;
+    height: 100%;
+    padding-left: 5%;
+  }
+  h1{
+    text-decoration: underline;
+    font-size: 50px;
+  }
+  .left > p{
+    font-size: x-large;
+  }
+  .right{
+    flex-direction: right;
+    background-image: url(../images/hands.jpeg);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+  }
+  .cleaning{
+    height: 35%;
+    width: 39%;
+    background-image: url(../images/clean.jpg);
+    background-repeat: no-repeat; 
+    background-size: contain;    
+    position: absolute;
+    right: 20%;
+    top: 30%;}
+
+    .cleaning > img {
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+    }
+    .button{      
+      padding-top: 2%;
+      display: flex;
+      width: 50%;      
+     }
+    .left > div > input{
+      color: black;
+      background-color: #52ab98;
+      padding: 5px 20px 5px 20px;
+      border-radius:50px;
+    }
+  
+ /* icon div styling */
+ .icons{
+   padding-top: 3%;
+    width: 95%;     
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .icons > div > img {
+   border-radius:50%;
+ }
+
+ /* meet the teams */
+ .h2{
+    
+   width: 95%;
+   margin: auto;
+   text-align: center; 
+   font-size: x-large; 
+  text-decoration: underline;
+ }
+
+ /* team info */
+ .top{
+  padding-top: 2%;
+  width: 95%;
+  height:50vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+ }
+ .bottom{
+  width: 95%; 
+  height:50vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .team{
+   border-radius: 50%; 
+ }
+ .team>img{
+   object-fit: cover; 
+ }
+ .top > div > p{
+  text-align: center; 
+ }
+ .bottom > div > p{
+  text-align: center;  
+ }
+
+/* footer section */
+.footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer hr{
+    border-bottom: #52AB98;
+}
+.f1{
+    font-size: larger;
+    font-weight: bolder;
+    width: 80px;
+}
+.f2 ul{
+    list-style: none;
+}
+.f2 li{
+    margin-top: 10px;
+}
+.first{
+    font-size: larger;
+    font-weight: bolder;
+}
+.f3 ul{
+    list-style: none;
+}
+.f3 li{
+    margin-bottom: 10px;
+}
+.f3 li i{
+    margin-right: 10px;
+    color: #52AB98;
+    font-size: 20px;
+}
+#email{
+    padding: 15px;
+    margin-top: 50px;
+    border:transparent;
+    border-radius: 10px 0 0 10px;
+}
+#email2{
+    padding: 15px;
+    border-radius: 0 10px 10px 0;
+    border: transparent;
+    background-color: #52AB98;
+}
+.rights{
+    width: 100%;
+    height: 50px;
+    background-color: #0F1010;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.rights p{
+    color: #52AB98;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#rights i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: #52AB98;
+}
+
+/* mission/vision styling */
+.changePage{
+  background-image: url(../images/hands.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);  
+  width: 100%;
+  height: 50vh;
+  color: white;
+ 
+}
+
+.changePage > h2{
+  color:white ;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center; 
+  font-size: xx-large;  
+}
+ 
+.info{
+  display: flex;
+  color:#52ab98;  
+  height: 100%;
+  width: 100%;
+  margin: auto; 
+  text-align: center;
+  font-size: x-large;
+  }
+
+.info1{
+  flex-direction: left;
+  width: 50%;
+  height: 100%; 
+}
+.info2{
+  flex-direction: right;
+  width: 50%;
+  height: 100%; 
+} 
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+@media only screen  and (max-width:1000px){
+  /* NAVBAR RESPONSIVE */
+@media screen and (max-width: 1000px) {
+  .navbar {
+      display: flex;
+  }
+  .navbar .icon {
+      display: none;
+  }
+  .logo {
+      font-weight: 600;
+      font-size: 2em;
+      margin-right: 30px;
+      padding: 2px;
+  }
+  .hw {
+      overflow: hidden;
+  }
+  .navbar ul li {
+      display: flex;
+      padding: 0.5em;
+  }
+  .navbar ul li a{
+      font-weight: 400;
+  }
+  .btn-login {
+      float: right;
+  }
+  .bg-img {
+      height: 50vh;
+  }
+
+  .aboutus{    
+    margin-top: 3%;
+    display: flex; 
+    flex-direction: column;
+    width: 95%; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh; 
+    background-image: url(../images/hands.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+  }
+  
+  .left{
+    width:95%;
+    height: 100%;
+    padding-left: 5%;
+    color: white;
+  }
+  h1{
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .left > p{
+    font-size: large;
+  }
+  .right{
+    display: none;
+    background-image: url(../images/hands.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .cleaning{
+    display: none;
+    height: 35%;
+    width: 39%;
+    background-image: url(../images/clean.jpg);
+    background-repeat: no-repeat; 
+    background-size: contain;    
+    position: absolute;
+    right: 20%;
+    top: 30%;}
+
+    .cleaning > img {
+      display: none;
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+    }
+    
+    .button{      
+      display: flex;
+      width: 20%;       
+    }
+    
+    .left > div > input{
+      color: black;
+      background-color: #52ab98;
+      padding: 5px 10px 5px 10px;
+      border-radius:50px;
+    }
+  
+ /* /* icon div styling */
+ .icons{
+    padding-top: 3%;
+    width: 95%; 
+    height: 20vh;  
+    margin: auto;
+    display: flex;   
+    justify-content: space-around;
+    text-align: center;
+ }
+ .icons > div > img {
+   border-radius:50%;
+ } 
+/* team info */
+.top{
+  padding-top: 2%;
+  width: 95%;
+  height:50vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+ }
+ .bottom{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 95%; 
+  height:50vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+
+/* /* mission/vision styling */
+.changePage{
+  background-image: url(../images/hands.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  color: white; 
+}
+
+.changePage > h2{
+  color:white ;
+  text-align: center; 
+  font-size: xx-large;  
+}
+ 
+.info{
+  display: flex;
+  flex-direction: column;
+  color:#52ab98; 
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: auto; 
+  text-align: center;
+  font-size: medium;
+  }
+
+.info1{  
+  width: 50%;
+  height: 100%; 
+  margin-bottom: 5%;
+}
+.info2{  
+  width: 50%;
+  height: 100%; 
+  margin-bottom: 5%;
+} 
+  
+/* footer styling */
+.footer{
+  height: 90vh;
+  flex-direction: column;
+}
+.f1{
+  font-size: medium;
+}
+.f2 , .f3{
+  font-size: small;
+}
+footer form{
+  display: flex;
+}
+#email{
+  padding: 0%;
+  height: 20px;
+}
+#email2{
+  padding: 0%;
+  height: 20px;
+  margin-top: 3.8em;
+}
+}

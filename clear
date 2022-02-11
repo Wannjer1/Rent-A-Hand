@@ -1,0 +1,48 @@
+[33mcommit a31e007736f450c636a19fec26c53e3cebd76503[m[33m ([m[1;36mHEAD -> [m[1;32mft-about_us[m[33m, [m[1;31morigin/ft-about_us[m[33m)[m
+Author: Njoki <kinuthiash@gmail.com>
+Date:   Wed Feb 9 15:13:40 2022 +0300
+
+    ft:add team photos
+
+[33mcommit b4d696181625f0dcc7e4cab73041a593abc42bbf[m
+Author: Njoki <kinuthiash@gmail.com>
+Date:   Wed Feb 9 15:08:07 2022 +0300
+
+    ft: add team section code
+
+[33mcommit 1562fa0662d6be91026d370fbe7a6a371025b3bd[m
+Author: Njoki <kinuthiash@gmail.com>
+Date:   Wed Feb 9 14:28:54 2022 +0300
+
+    doc:add files
+
+[33mcommit 600b9d423a39cb17927e5761b89be79bd1447bbb[m
+Author: Njoki <kinuthiash@gmail.com>
+Date:   Wed Feb 9 12:41:46 2022 +0300
+
+    ft:about div code
+
+[33mcommit a80a570d6e8e6c0677e3ebc48d91f3f980a2dafb[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: Ann Wanjeri <wannjeri2@gmail.com>
+Date:   Tue Feb 8 23:42:28 2022 +0300
+
+    comment added
+
+[33mcommit 196b578bf05128dfed4148645b10f1de3346006b[m
+Merge: 1b90a36 5625eaf
+Author: Ann Wanjeri <wannjeri2@gmail.com>
+Date:   Tue Feb 8 23:40:03 2022 +0300
+
+    dk-licence and readme added
+
+[33mcommit 1b90a363753dfbbbe5ca189f4b49260bc7145716[m
+Author: Ann Wanjeri <wannjeri2@gmail.com>
+Date:   Tue Feb 8 22:48:45 2022 +0300
+
+    added file-html,css,js
+
+[33mcommit 5625eaffab2781b69199706e5510e557c55113a3[m
+Author: Wanjeri <97942228+Wannjer1@users.noreply.github.com>
+Date:   Tue Feb 8 20:58:21 2022 +0300
+
+    Initial commit
