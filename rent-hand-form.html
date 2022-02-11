@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent A Hand</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link href ="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-color">
+        <header>
+            <div class="bg-img" style="background-image: url(./assets/bg-img.jpg);">
+                <div class="navbar">
+                    <h2 style="color: #002B2E;" class="logo">Rent a hand</h2>
+                    <ul class="rf">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="rent-hand-form.html">Rent a Hand</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><button class="btn-login">log in</button></li>
+                    </ul>
+                </div>
+            </div>  
+        </header>
+        <div class="container">
+            <div class="form-container">
+                <h2 class="title">Find a Qualified Hand Within Yor Area</h2>
+                <form class="form-group">
+                    <div class="form-content">
+                        <div class="input-fields">
+                            <div class="form-group">
+                                <label for="first_name">Name *</label>
+                                <input type="text" class="form-control" id="first_name" placeholder="Enter Your Full Name" required autofocus autocomplete="on">
+                                <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                <label for="email_address">Email Address *</label>
+                                <input type="email" class="form-control" id="email_addr" placeholder="example@gmail.com" required>
+                                <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="service">Please Select The Service You Need</label>
+                                  <select id="service" class="form-control">
+                                      <option id="opt">Gardening</option>
+                                      <option id="opt">Dog Walking</option>
+                                      <option>Laundry</option>
+                                      <option>Rafiki guide</option>
+                                      <option>Car Cleaning</option>
+                                  </select>
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                <label for="p-hand">Date</label>
+                                <input type="date" class="form-control" id="dob">
+                                <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="time">Time</label>
+                                  <input type="time" class="form-control" id="time" placeholder="4:00 available">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="duration">Expected Duration</label>
+                                  <select id="duration" class="form-control">
+                                      <option class="option">2hrs</option>
+                                      <option class="option">4hrs</option>
+                                      <option>6hrs</option>
+                                      <option>8hrs</option>
+                                  </select>
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="preferred hand">Select Your Preferred Hand *</label>
+                                  <select class="form-control" id="p-hand">
+                                    <option>AMINA</option>
+                                    <option>JOSEPH</option>
+                                    <option>RACHAEL</option>
+                                    <option>AMOS</option>
+                                    <option>MERCY</option>
+                                  </select>
+                                  <span class="help-block"></span>
+                                </div>
+                              <div class="form-group">
+                                <label for="location">Please Choose Your Location From The Map</label>
+                                <input type="number" class="form-control" id="location" placeholder="Location Address" min="1" max="110" required>
+                                <span class="help-block"></span>
+                              </div>
+                            <button class="btn btn-lg btn-block btn-rent" type="submit">Rent Hand Now</button>
+                        </div> 
+                        <div class="map-field">
+                            <div class="form-group">
+                                <div class="mapouter">
+                                    <div class="gmap_canvas">
+                                        <iframe 
+                                            width="1020" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                        </iframe>
+                                        <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
+                                        <br>
+                                        <style>
+                                        .mapouter{
+                                            position:relative;
+                                            text-align:right;
+                                            height:100%;
+                                            width:100%;
+                                        }
+                                        </style>
+                                        <a href="https://www.embedgooglemap.net"></a>
+                                        <style>
+                                        .gmap_canvas {
+                                            margin-top: 10px;
+                                            overflow:hidden;
+                                            background:none!important;
+                                            height:100%;
+                                            width:100%;
+                                        }
+                                        </style>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="1000" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:1000px%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width: ;}</style></div></div>     -->
+                </form>
+            </div> 
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <div class="footer">
+            <div class="f1">
+                <h3>Rent A Hand</h3>
+            </div>
+            <div class="r-div">
+                <div class="f2">
+                    <p class="f-heading">Site Map</p>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Our Services</li>
+                        <li>Rent A Hand</li>
+                        <li>Contact Us</li>
+                        <li>Rates</li>
+                    </ul>
+                </div>
+                <div class="f3">
+                    <p class="f-heading" >Get In Touch</p>
+                    <ul>
+                        
+                        <li><i class="fa-solid fa-phone"></i>(+254)736-452-536</li>
+                        <li><i class="fa-solid fa-location-dot"></i>Hospital Rd,UpperHill</li>
+                        <li><i class="fa-solid fa-envelope"></i>email@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-cont">
+                <form class="footer-form">
+                    <input type="text" id="email" placeholder="email@gmail.com" required>
+                    <input type="submit" id="submit" value="Subscribe to our Newsletter" >
+                </form>
+            </div>
+        </div>
+        <div class="rights">
+                <p>All Rights Reserved 2022</p>
+            <div id="rights">
+                <i class="fa-brands fa-whatsapp-square"></i>
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,303 @@
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+    body{
+        background-image: linear-gradient(to bottom right, #52AB98, white);
+
+
+    }
+/* HEADER STYLING */
+
+.bg-img {
+    height: 50vh;
+    width: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-family: pacifico;
+    font-weight: 700;
+    font-size: 2em;
+    color: #AEEDF5;
+    margin: 5px 40px;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 500;
+}
+.navbar .hw li a {
+    color: #fff;
+}
+.navbar .rf li a {
+    color: #002B2E;
+}
+.navbar .rf li a:hover {
+    color: #246859;
+}
+.btn-login {
+    background-color: #002B2E;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    margin-right: 40px;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-style: italic;
+}
+.navbar ul li a:hover {
+    color: #AEEDF5;
+}
+.btn-login:hover {
+    background-color: #AEEDF5;
+    color: #002B2E;
+}
+.btn-login a:hover {
+    background-color: darkblue;
+}
+    .block1{
+        background-image: url("./Hand4.jpg");
+        height: 60vh;
+        background-size: cover;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+        color: white;
+        font-weight: bolder;
+        position: relative;
+    }
+    #block1a{
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        font-size: 35px;
+    }
+    #block1b{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+    .block2{
+        height: 5vh;
+    }
+    .block3{
+        height: 50vh;
+        border: 2px solid #52AB98;
+        position: relative;
+        overflow: visible;
+    }
+    .block3a{
+        display: flex;
+        justify-content: space-around;
+    }
+    #block3a1{
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    #block3a2{
+        font-weight: bold;
+        font-size: small;
+        margin-top: 3%;
+    }
+    .block3b{
+        background-color: #52AB98;
+        position: absolute;
+        top: 65%;
+        left: 30%;
+        width: 40%;
+        height: 30vh;
+        text-align: center;
+    }
+    .block3b p{
+        padding-top: 20px;
+    }
+    .block3b ul{
+        display: flex;
+        flex-wrap: wrap;
+        height: 30%;
+        margin-top: 2em;
+    }
+
+    .block3b ul li{
+        list-style-type: square;
+    }
+    .block3b ul li a{
+        text-decoration: none;
+        color: white;
+        margin-left: 5em;
+    }
+    .block4{
+        height: 80vh;
+        position: relative;
+    }
+   .block4_images{
+       position: absolute;
+       top: 30%;
+       width: 100%;
+       justify-content: space-between;
+   }
+   .block4_images img{
+       margin-left: 3em;
+   }
+
+  
+  
+
+
+   .block4a{
+       position: absolute;
+       top: 65%;
+       left: 15%;
+       font-weight: bolder;
+       font-style: italic;
+       color: blue;
+       width: 70%;
+       text-align: center;
+       padding-top: 20px;
+   }
+   #sign-up{
+       display: flex;
+       justify-content: center;
+   }
+   #sign-up button{
+       background-color: #52AB98;
+       height: 30px;
+       width: 100px;
+       border-radius: 20px;
+       font-weight: bolder;
+       border: solid 1px blueviolet;
+        margin-top: 20px;
+   }
+   #btn.reg:hover{
+        background-color: blue;
+   }
+   #rent{
+       text-shadow: 1px 2px blue;
+       font-size: 20px;
+   }
+   #sign-up p{
+       font-weight: lighter;
+       color: black;
+       padding: 20px;
+       margin-top: 5px;
+   }
+   .block5{
+       background-image: url("./4500625.jpg");
+       height: 50vh;
+       background-size: cover;
+       text-align: center;
+       background-repeat: no-repeat;
+       background-position: center;
+       object-fit: cover;
+   }
+   .block5 p{
+       color: white;
+       font-size: 30px;
+       padding-top: 55px;
+       font-weight: bolder;
+
+   }
+   .block5a{
+       width: 100%;
+       height: 100%;
+       /* background-color: rgba(0,0,0,0.5); */
+
+   }
+   .block6{
+        height: 10vh;
+   }
+
+   .footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer hr{
+    border-bottom: #52AB98;
+}
+.f1{
+    font-size: larger;
+    font-weight: bolder;
+    width: 80px;
+}
+.f2 ul{
+    list-style: none;
+}
+.f2 li{
+    margin-top: 10px;
+}
+.first{
+    font-size: larger;
+    font-weight: bolder;
+}
+.f3 ul{
+    list-style: none;
+}
+.f3 li{
+    margin-bottom: 10px;
+}
+.f3 li i{
+    margin-right: 10px;
+    color: #52AB98;
+    font-size: 20px;
+}
+#email{
+    padding: 15px;
+    margin-top: 50px;
+    border:transparent;
+    border-radius: 10px 0 0 10px;
+}
+#email2{
+    padding: 15px;
+    border-radius: 0 10px 10px 0;
+    border: transparent;
+    background-color: #52AB98;
+}
+.rights{
+    width: 100%;
+    height: 50px;
+    background-color: #0F1010;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.rights p{
+    color: #52AB98;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#rights i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: #52AB98;
+}
+
+
+
+
+
+
+
+
