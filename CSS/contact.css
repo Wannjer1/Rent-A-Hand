@@ -111,20 +111,13 @@
 /* End of header */
 
 body {
-    background-image: url(../images/header.jpg);
     margin: 0;
     padding: 0.4rem 0.2rem;
 }
-.main{
-    /* background-image: url('../images/header.jpg'); */
+.major {
+    background-image: url(../images/header.jpg);
+    background-size: 800px;
 }
-/* .bg-img{
-    background-image: url(./images/hand.png);
-    background-repeat: none;
-    width: 30x;
-    height: 20px;
-} */
-
 .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -139,7 +132,7 @@ body {
 .leftbar {
     width: 100%;
     overflow-wrap: break-word;
-    background: rgba(0, 128, 128, 0.3);
+    background: rgba(0, 128, 128, 0.7);
     padding: 0.2rem 2rem 0.2rem 2rem;
     box-sizing: border-box;
     /* background-image: url('../images/header.jpg'); */
